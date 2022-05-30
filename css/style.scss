@@ -750,6 +750,9 @@ a:focus {
 
   .footer-info {
     text-align: center;
+    display: flex;
+    width: 100%;
+    justify-content: center;
 
     p {
       color: $white;
