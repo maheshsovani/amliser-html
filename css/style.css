@@ -173,12 +173,17 @@ a:focus {
   transition: all 0.3s;
 }
 
+.whatsapp-icon {
+  font-size: 30px;
+}
+
 .custom_nav-container .nav_search-btn {
   width: 35px;
   height: 35px;
   padding: 0;
   border: none;
   color: #ffffff;
+  font-weight: 400;
 }
 
 .custom_nav-container .nav_search-btn:hover {
