@@ -90,11 +90,12 @@
       <div class="row">
         <div class="col-md-6">
           <div class="form_container contact-form">
-            <form name="contact" method="post" data-netlify="true" data-netlify-honeypot="bot-field" onsubmit="submit">
+            <form name="contact" method="post" data-netlify="true" onsubmit="submit" data-netlify-honeypot="bot-field"
+              action="index.html">
+              <input class="d-none" name="bot-field" />
               <div class="form-row">
                 <div class="col-lg-6">
                   <div>
-                    <input class="d-none" name="bot-field" />
                     <input type="text" placeholder="Your Name" id="contactName" name="name" />
                   </div>
                 </div>
